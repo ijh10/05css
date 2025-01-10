@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Furniture Emporium</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <main>
@@ -13,17 +14,25 @@
         </p>
       </header>
       <article>
-        <h2>Ergonomic Couch</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-          delectus iusto corporis id, quo cumque, perferendis consequatur
-          possimus repellendus quisquam minus sapiente aut suscipit fugit quia
-          debitis totam et incidunt!
-        </p>
-        <p>$20.00 <s>$25.00</s></p>
-        <button>Add to cart</button>
+        <div class="card-container">
+          <div class="card1">
+            <h3> card 1</h3>
+            <h2>Ergonomic Couch</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+              delectus iusto corporis id, quo cumque, perferendis consequatur
+              possimus repellendus quisquam minus sapiente aut suscipit fugit quia
+              debitis totam et incidunt!
+            </p>.
+            <p class="marked-down">$20.00 <s>$25.00</s></p>
+            <button">Add to cart</button>
+        </div>
+      </div>
       </article>
       <article>
+        <div class="card-container">
+          <div class="card2">
+          <h3> card 2</h3>
         <h2>Frozen Table</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -31,10 +40,17 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$49.95 <s>$60.00</s></p>
+        <p class="marked-down">$49.95 <s>$60.00</s></p>
         <button>Add to cart</button>
+        </div>
+      </div>
+        
+        
       </article>
       <article>
+        <div class="card-container">
+          <div class="card3">
+        <h3>card 3</h3>
         <h2>Handcrafted Chair</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -42,8 +58,9 @@
           possimus repellendus quisquam minus sapiente aut suscipit fugit quia
           debitis totam et incidunt!
         </p>
-        <p>$18.99 <s>$32.99</s></p>
-        <button>Add to cart</button>
+        <p  class="marked-down">$18.99 <s>$32.99</s></p>
+        <p class="buttons"></p><button>Add to cart</button></p>
+      </div>
       </article>
     </main>
   </body>

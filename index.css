@@ -1,0 +1,47 @@
+body {
+    background-color: orange ;
+}
+h1 {
+    background-color: aquamarine;
+}
+div {
+    margin-top: 20px;
+    padding: 20px; /* All sides (top, right, bottom, left) will have 20px of padding */
+}
+.marked-down { 
+    color:red
+}
+header {
+    background-color: pink;
+}
+.cart {
+    color-scheme: green;
+}
+
+.card1 {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 255, 0.349);
+    margin: 10px 10px;
+    padding: 12px 12px;
+    font-style: italic;
+    font-weight: 100;
+}
+.card2 {
+    border: 5px dotted black;
+    background-color: white;
+    margin: 12px 12px;
+    padding: 10px 10px;
+    font-style: initial;
+}
+.card3 {
+    border: 3px dashed black;
+    background-color: purple;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+
+.buttons {
+    background-color: bisque;
+    border-color: yellow;
+    color: white;
+}
